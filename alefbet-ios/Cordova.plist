@@ -29,7 +29,8 @@
 	<key>ExternalHosts</key>
 	<array>
 		<string>api.mixpanel.com</string>
-		<string>m.facebook.com
+		<string>*</string>
+		<string>*.facebook.com
 m.facebook.com
 m.facebook.com</string>
 		<string>graph.facebook.com</string>
