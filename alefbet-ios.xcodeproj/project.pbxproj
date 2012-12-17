@@ -594,7 +594,7 @@
 					"-Obj-C",
 				);
 				PRODUCT_NAME = "alefbet-ios";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -630,7 +630,7 @@
 					"-Obj-C",
 				);
 				PRODUCT_NAME = "alefbet-ios";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -638,8 +638,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roi Ganor";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roi Ganor (2KWG3XC5EK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roi Ganor (2KWG3XC5EK)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -664,7 +664,8 @@
 					"-all_load",
 					"-Obj-C",
 				);
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "804F06B8-DA15-4533-A7DD-D1F775BA4701";
+				PROVISIONING_PROFILE = "733266D1-ABEF-46C9-BAEB-16BBADF4F883";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "733266D1-ABEF-46C9-BAEB-16BBADF4F883";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -703,7 +704,7 @@
 					"-Obj-C",
 				);
 				PRODUCT_NAME = "alefbet-ios";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = AppStore;
 		};
@@ -711,7 +712,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roi Ganor (2KWG3XC5EK)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roi Ganor (2KWG3XC5EK)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
@@ -737,7 +738,8 @@
 					"-all_load",
 					"-Obj-C",
 				);
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4258B2F5-B411-40F9-9E7A-B1F08B878B44";
+				PROVISIONING_PROFILE = "733266D1-ABEF-46C9-BAEB-16BBADF4F883";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "733266D1-ABEF-46C9-BAEB-16BBADF4F883";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -748,7 +750,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roi Ganor (2KWG3XC5EK)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roi Ganor (2KWG3XC5EK)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
@@ -774,6 +776,8 @@
 					"-all_load",
 					"-Obj-C",
 				);
+				PROVISIONING_PROFILE = "733266D1-ABEF-46C9-BAEB-16BBADF4F883";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "733266D1-ABEF-46C9-BAEB-16BBADF4F883";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
