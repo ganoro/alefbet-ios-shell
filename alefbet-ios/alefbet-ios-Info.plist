@@ -16,6 +16,7 @@
 		<string>icon@2x.png</string>
 		<string>icon-72.png</string>
 		<string>icon-72@2x.png</string>
+		<string>icon-57.png</string>
 	</array>
 	<key>CFBundleIcons</key>
 	<dict>
@@ -27,6 +28,7 @@
 				<string>icon@2x.png</string>
 				<string>icon-72.png</string>
 				<string>icon-72@2x.png</string>
+				<string>icon-57.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<true/>
@@ -63,10 +65,10 @@
 	<string>493286734028074</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSMainNibFile</key>
-	<string></string>
 	<key>NSMainNibFile~ipad</key>
 	<string></string>
+	<key>UIPrerenderedIcon</key>
+	<true/>
 	<key>UIStatusBarHidden</key>
 	<true/>
 	<key>UISupportedInterfaceOrientations</key>
